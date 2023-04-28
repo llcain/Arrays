@@ -53,6 +53,8 @@ public class JavaArrays {
         System.out.println(Arrays.toString(cars));
 
         myMethod();
+        myMethod();
+        myMethod();
 
 
     }
