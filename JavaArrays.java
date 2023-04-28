@@ -1,4 +1,6 @@
-
+import java.io.*;
+import  java.lang.*;
+import java.util.Scanner;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
@@ -14,7 +16,10 @@ public class JavaArrays {
         resultArray[2] = 80;
         resultArray[3] = 20;
         resultArray[4] = 97;
-        resultArray[5] = 45;
+        resultArray[5] = 61;
+
+
+
 
 
        numbers[0] = 6;
@@ -24,6 +29,10 @@ public class JavaArrays {
         System.out.println(Arrays.toString(numbers));
         System.out.println(Arrays.toString(resultArray));
         System.out.println(resultArray[0]);
+
+        String[] cars = {"volvo", "BMW", "Ford", "Mazda"};
+
+        System.out.println(cars[0]);
 
 
     }
