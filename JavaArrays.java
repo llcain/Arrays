@@ -5,6 +5,10 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class JavaArrays {
+    // call a method
+    static void myMethod() {
+        System.out.println("I made it!");
+    }
 
     public static void main(String[] args) {
        int[] numbers = new int[3];
@@ -42,7 +46,13 @@ public class JavaArrays {
             System.out.println(cars[i]);
         }
 
+        for (String i : cars) {
+            System.out.println(i);
+        }
+
         System.out.println(Arrays.toString(cars));
+
+        myMethod();
 
 
     }
