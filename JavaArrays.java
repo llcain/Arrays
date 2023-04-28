@@ -65,6 +65,13 @@ public class JavaArrays {
         hisMethod("tom");
         hisMethod("sarah");
 
+        String[] betterHomeGardens = {"over the rain","berry lemonade", "caribbean sea breeze"};
+
+        Person myObj = new Person();
+        myObj.setName("Bob"); // Set the value of the name variable to "Johns
+        System.out.println(myObj.getName());
+
+
 
     }
 }
