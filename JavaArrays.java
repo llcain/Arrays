@@ -32,7 +32,9 @@ public class JavaArrays {
 
         String[] cars = {"volvo", "BMW", "Ford", "Mazda"};
 
-        System.out.println(cars[0]);
+        cars[0] = "camry";
+
+        System.out.println(Arrays.toString(cars));
 
 
     }
