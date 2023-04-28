@@ -10,6 +10,11 @@ public class JavaArrays {
         System.out.println("I made it!");
     }
 
+    // Parameters and Arguments
+    static  void hisMethod(String firstname) {
+        System.out.println(firstname + " Rsefsnes");
+    }
+
     public static void main(String[] args) {
        int[] numbers = new int[3];
         int resultArray[] = new int[6];
@@ -55,6 +60,10 @@ public class JavaArrays {
         myMethod();
         myMethod();
         myMethod();
+
+        hisMethod("lisa");
+        hisMethod("tom");
+        hisMethod("sarah");
 
 
     }
