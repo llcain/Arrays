@@ -34,6 +34,14 @@ public class JavaArrays {
 
         cars[0] = "camry";
 
+        // Looping through an array using for loop
+
+        // how to write a for loop
+
+        for(int i = 0; i < cars.length; i++) {
+            System.out.println(cars[i]);
+        }
+
         System.out.println(Arrays.toString(cars));
 
 
