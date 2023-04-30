@@ -17,28 +17,28 @@ class Pig implements Animal {
     }
 
     public void sleep() {
-        System.out.println("Zzz");
+        System.out.println("Pig Zzz");
     }
 
     @Override
     public void run() {
-        System.out.println("run run");
+        System.out.println("Pig run");
     }
 }
 
 class Dog implements Animal {
     @Override
     public void animalSound() {
-        System.out.println("bark bark");
+        System.out.println("The dog says: bark bark");
     }
 
     public  void sleep() {
-        System.out.println("ZZ");
+        System.out.println("Dog ZZZ");
     }
 
     @Override
     public void run() {
-        System.out.println("run run");
+        System.out.println("Dog run");
     }
 
 

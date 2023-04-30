@@ -98,7 +98,13 @@ public class JavaArrays {
 
 //        myAnimal.animalSound();
         myPig.animalSound();
+        myPig.sleep();
+        myPig.run();
         myDog.animalSound();
+        myDog.sleep();
+        myDog.run();
+
+
 
 
 
