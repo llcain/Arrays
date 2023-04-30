@@ -92,11 +92,11 @@ public class JavaArrays {
         System.out.println(myObj1.make);
         System.out.println(myObj1.model);
 
-        Animal myAnimal = new Animal(); // Create an Animal object
+//        Animal myAnimal = new Animal(); // Create an Animal object
         Animal myPig = new Pig(); // Create a Pig object
         Animal myDog = new Dog(); // Create a Dog object
 
-        myAnimal.animalSound();
+//        myAnimal.animalSound();
         myPig.animalSound();
         myDog.animalSound();
 
