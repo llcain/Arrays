@@ -71,6 +71,35 @@ public class JavaArrays {
         myObj.setName("Bob"); // Set the value of the name variable to "Johns
         System.out.println(myObj.getName());
 
+        // the number of elements we want to hold
+        final int _arraySize = 4;
+
+        // our array declaration
+        String[] stringArray = new String[_arraySize];
+
+        for (int i = 0; i < _arraySize; i++) {
+            // assign value to index i
+            stringArray[i] = "This is stored in index " + i;
+
+            // print value saved in index i
+            System.out.println(stringArray[i]);
+        }
+
+        Cars myObj1 = new Cars();
+        Cars myFastCar = new Cars();
+        myFastCar.honk();
+
+        System.out.println(myObj1.make);
+        System.out.println(myObj1.model);
+
+        Animal myAnimal = new Animal(); // Create an Animal object
+        Animal myPig = new Pig(); // Create a Pig object
+        Animal myDog = new Dog(); // Create a Dog object
+
+        myAnimal.animalSound();
+        myPig.animalSound();
+        myDog.animalSound();
+
 
 
     }
