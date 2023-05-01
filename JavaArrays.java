@@ -1,5 +1,6 @@
 import java.io.*;
 import  java.lang.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -103,6 +104,13 @@ public class JavaArrays {
         myDog.animalSound();
         myDog.sleep();
         myDog.run();
+
+        ArrayList<String> candles = new ArrayList<>();
+        candles.add("Moonlight Path");
+        candles.add("Lemon");
+        candles.add("Manderian");
+        candles.add("Cherry");
+        System.out.println(candles);
 
 
 
