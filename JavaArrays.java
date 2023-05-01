@@ -111,6 +111,8 @@ public class JavaArrays {
         candles.add("Manderian");
         candles.add("Cherry");
         System.out.println(candles);
+        System.out.println(candles.get(2));
+
 
 
 
